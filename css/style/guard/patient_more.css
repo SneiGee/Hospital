@@ -1,0 +1,305 @@
+/*  
+    
+    Aministrator styling Css
+    editing is allotw
+    Design and Develop by Michael Schneider
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eeeded;
+    position: relative;
+    overflow-x: hidden
+}
+
+#main-navbar {
+    background: #3498DB;
+}
+
+#navbar-collapse .navbar-right .dropdown a {
+    background: #3498DB;
+}
+
+#navbar-collapse .navbar-right .dropdown .dropdown-menu li a {
+    background: #fff;
+}
+#navbar-collapse .navbar-right .dropdown .dropdown-menu li a:hover {
+    background: #000;
+    color: #fff
+}
+
+div#container {
+    width: 100%;
+    padding-left: 0;
+    height: 100%
+}
+
+.sidebar {
+    position: absolute;
+    width: 230px;
+    height: 100%;
+    top: 53px;
+    left: 0px;
+    bottom: 0px;
+    background: #3498DB;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all 0.5s ease;
+    z-index: 1000;
+}
+.sidebar::-webkit-scrollbar {
+    display: none
+}
+
+ul#nav {
+}
+
+ul#nav li {
+    list-style: none;
+    position: relative;
+    height: 100%
+}
+
+ul#nav li a {
+    color: #e3e3e3;
+    display: block;
+    padding: 7px;
+    padding-left: 13px;
+    font-size: 0.9em;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;
+    border-right: 3px solid rgba(0, 0, 0, 0.5);
+    height: 100%
+}
+
+ul#nav li a span {
+    padding: 13px;
+}
+
+ul#nav .myBlogsiteDashboard_profile {
+    line-height: 60px;
+    color: #fff;
+    display: block;
+    padding: 7px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+ul#nav .dropdown-menu {
+    background-color: #457a9b;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+}
+
+ul#nav .dropdown-menu li a {
+    padding: 9px;
+    padding-left: 20px;
+    width: 110%
+}
+ul#nav .dropdown-menu li.dropActive {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+ul#nav li a:hover,
+ul#nav li a:active,
+ul#nav li a:focus {
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    text-decoration: none;
+}
+
+ul#nav li.active {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-right: 7px solid #747373
+}
+
+/*  Dashboard Profile  */
+.dashboardProfileDefault {
+    padding: 13px;
+    margin-left: -30px
+}
+#defaultProfile {
+    border-radius: 50px
+}
+
+/* Second Navbar  */
+#second-navbar {
+    width: 100%;
+    background: #eeeded;
+    color: ;
+    margin-top: 33px;
+    height: 72px;
+    border-bottom: 1px solid #cccbcb;
+}
+
+.page-header {
+    opacity: 0.6;
+    margin-left: -30px;
+    margin-top: 13px;
+}
+
+.form-inline .form-group a {
+    text-decoration: none;
+}
+
+/*  Department Page and Add Form */
+#PageContainer {
+    margin-top: 30px;
+    margin-left: 20%;
+    background: #fff;
+    border: 1px solid #cccbcb;
+    height: auto;
+    width: 77%;
+}
+
+.departmentlistTable {
+    top: -13px;
+}
+.departmentlistTable ul.nav {
+    margin-top: 10px;
+    width: 1039px;
+    margin-left: -199px;
+    background: #e3e3e3;
+}
+.departmentlistTable ul.nav li {
+    width: 40%;
+    font-size: 1.4em;
+}
+.departmentlistTable ul.nav .departmentTabOper {
+    width: 20%;
+    font-size: 1.4em;
+}
+.departmentlistTable ul.nav li a {
+    color: #000;
+    font-weight: bold;
+}
+
+#departmentList {
+    padding-top: 27px;
+    width: 154%;
+    margin-left: -27%;
+    margin-top: 30px;
+    border: 1px solid #cccbcb
+}
+
+#departmentAdd {
+    width: 154%;
+    padding-top: 27px;
+    margin-top: 30px;
+    margin-left: -27%;
+    border: 1px solid #cccbcb
+}
+
+#departmentAdd3 {
+    width: 154%;
+    padding-top: 27px;
+    margin-top: 30px;
+    margin-left: -27%;
+    border: 1px solid #cccbcb
+}
+
+.departmentForm form {
+    margin-left: -10%
+}
+
+
+/*  Index Login Footer  */
+.AdminFooter {
+    opacity: 0.7;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 30px
+}
+.AdminFooter .form-group span a {
+    text-decoration: none
+}
+
+
+/*  Edit Administrator Profile  */
+.editProfilePhoto {
+    border-radius: 100%;
+    border: 3px solid #3498DB;
+    cursor: pointer
+}
+.editProfile {
+    padding: 10px;
+    margin-left: 10px
+}
+.editProfileInfoForm {
+    margin-top: -240px;
+    margin-left: 290px;
+}
+.changepassword-header {
+    font-style: bold;
+    margin-left: 30px;
+    opacity: 0.6;
+}
+.changPassword {
+    margin-top: 70px;
+}
+.profileUpload {
+    position: relative
+}
+#profileUploadButton {
+    width: 100%;
+    height: 70px;
+}
+#profileUploadInput {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    margin-top: -70px;
+    z-index: 2;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/*  Displaying Error */
+.displayError {
+    width: 100%
+}
+.profileSuccess {
+    color: #fff;
+    background: #2196F3;
+    padding: 13px;
+    margin-top: -40px;
+}
+.updateError {
+    color: #fff;
+    background: #f44336;
+    padding: 13px;
+    margin-top: -40px;
+}
+
+.closebtn {
+    color: white;
+    font-weight: bold;
+    margin-left: 98%;
+    font-size: 22px;
+    line-height: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px
+}
+
+.closebtn:hover {
+    color: black;
+}

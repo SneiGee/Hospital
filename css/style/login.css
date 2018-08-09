@@ -1,0 +1,208 @@
+/*
+    MYBLOGSITE HOSPITAL MANAGEMENT SYSTEM
+    DEVELOPED AND DESIGN BY SCHNEIDER MICHAEL
+*/
+
+
+#allAdminLoginPage {  
+    margin-left: 450px;
+    margin-top: 3%;
+}
+
+.administrator-loginPage {
+    background: #fff;
+    width: 38%;
+    height: auto;
+    padding: 30px;
+    text-align: left;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+}
+
+.administrator-loginPageHeader{
+    text-align: center;
+    opacity: 0.7
+}
+
+/* Form Lable */
+label {
+    display: block;
+    letter-spacing: 4px;
+    text-align: left;
+    padding-top: 30px;
+    margin-left: 20px
+}
+
+label .label-text {
+    color: black;
+    opacity: 0.7;
+    cursor: text;
+    font-size: 12px;
+    line-height: 38px;
+    text-transform: uppercase;
+    -moz-transform: translateY(-34px);
+    -ms-transform: translateY(-34px);
+    -webkit-transform: translateY(-34px);
+    transform: translateY(-34px);
+}
+
+label input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #4A4A4A;
+    color: #000;
+    font-size: 25px;
+    letter-spacing: -1px;
+    outline: 0;
+    padding: 5px 20px;
+    text-align: left;
+    width: 360px;
+    opacity: 0.3
+}
+
+label input:focus {
+    width: 360px;
+    border-bottom: 2px solid #0040ff;
+    opacity: 0.6
+}
+
+label input:focus + .label-text {
+    font-weight: bold;
+    color: #0040ff;
+    font-size: 9px;
+    -moz-transform: translateY(-74px);
+    -ms-transform: translateY(-74px);
+    -webkit-transform: translateY(-74px);
+    transform: translateY(-74px);
+}
+
+label input:valid + .label-text {
+    font-size: 9px;
+    -moz-transform: translateY(-74px);
+    -ms-transform: translateY(-74px);
+    -webkit-transform: translateY(-74px);
+    transform: translateY(-74px); 
+}
+
+#forgotGoButton{
+    margin-top: -30px
+}
+
+#forgotGoButton a {    
+    outline: none;
+    text-decoration: none;
+}
+
+#forgotGoButton a:nth-child(1) {    
+    margin-left: 17px
+    
+}
+
+#forgotGoButton a:nth-child(2) {    
+    margin-left: 48%
+}
+
+.loginFooter {
+    margin-top: 10px
+}
+
+.loginFooter span:nth-child(1) {
+    margin-left: -700px;
+    opacity: 0.8
+}
+
+.loginFooter span:nth-child(2) {
+    margin-left: 120px;
+}
+
+.loginFooter span a {
+    outline: none;
+    text-decoration: none;
+}
+
+/*  Displaying Error  */
+.displayError {
+    width: 430px
+}
+.LoginError {
+    color: #fff;
+    background: #f44336;
+    padding: 13px;
+    margin-top: -40px;
+}
+
+.closebtn {
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+
+
+
+ /*
+
+div#container {
+    width:100%;
+    margin: 0 auto;
+}
+
+.sidebar {
+    width: 120px;
+   height: 100%;*
+    background: #e3e3e3;
+    float: left;
+    padding: 5px;
+    position: fixed;
+}
+
+ul#nav {
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+ul#nav .navli, .dash {
+    list-style: none;
+    height: 70px;
+    cursor: pointer;
+}
+ 
+ul#nav .navli:hover {
+    margin-left: -20px;
+    width: 130px;
+    background: #c5c5c5;
+}
+
+ul#nav .navli .nava, .dash .dasha {
+    color: #000;
+    display: block;
+    padding: 8px;
+    font-size: 0.8em;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+ul#nav .navid {
+    margin-top: 20px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+/* ul#nav .navli.active {
+    margin-left: -30px;
+    width: 148px;
+    background: #c5c5c5;
+    color: #000;
+}*/

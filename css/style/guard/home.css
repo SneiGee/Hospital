@@ -1,0 +1,302 @@
+/*  
+    
+    Aministrator styling Css
+    editing is allotw
+    Design and Develop by Michael Schneider
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eeeded;
+    position: relative;
+    overflow-x: hidden;
+}
+
+Html {
+    overflow: hidden
+}
+
+#main-navbar {
+    background: #3498DB;
+}
+
+#navbar-collapse .navbar-right .dropdown a {
+    background: #3498DB;
+}
+
+#navbar-collapse .navbar-right .dropdown .dropdown-menu li a {
+    background: #fff;
+}
+#navbar-collapse .navbar-right .dropdown .dropdown-menu li a:hover {
+    background: #000;
+    color: #fff
+}
+
+div#container {
+    width: 100%;
+    padding-left: 0;
+    height: 100%
+}
+
+.sidebar {
+    position: fixed;
+    width: 230px;
+    height: 100%;
+    top: 53px;
+    left: 0px;
+    bottom: 0px;
+    background: #3498DB;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: all 0.5s ease;
+    z-index: 1000;
+}
+.sidebar::-webkit-scrollbar {
+    display: none
+}
+
+ul#nav {
+}
+
+ul#nav li {
+    list-style: none;
+    position: relative;
+    height: 100%
+}
+
+ul#nav li a {
+    color: #e3e3e3;
+    display: block;
+    padding: 7px;
+    padding-left: 13px;
+    font-size: 0.9em;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;
+    border-right: 3px solid rgba(0, 0, 0, 0.5);
+    height: 100%
+}
+
+ul#nav li a span {
+    padding: 13px;
+}
+
+ul#nav .myBlogsiteDashboard_profile {
+    line-height: 60px;
+    color: #fff;
+    display: block;
+    padding: 7px;
+    border-bottom: 1px solid #ccc;
+}
+
+ul#nav .dropdown-menu {
+    background-color: #457a9b;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+}
+
+ul#nav .dropdown-menu li a {
+    padding: 9px;
+    padding-left: 20px;
+    width: 110%
+}
+ul#nav .dropdown-menu li.dropActive {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+ul#nav li a:hover,
+ul#nav li a:active,
+ul#nav li a:focus {
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    text-decoration: none;
+}
+
+ul#nav li.active {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-right: 7px solid #747373
+}
+
+/*  Dashboard Profile  */
+.dashboardProfileDefault {
+    padding: 13px;
+    margin-left: -13px
+}
+#defaultProfile {
+    border-radius: 50px
+}
+
+/* Second Navbar  */
+#second-navbar {
+    width: 100%;
+    background: #eeeded;
+    color: ;
+    margin-top: 33px;
+    height: 72px;
+    border-bottom: 1px solid #cccbcb;
+}
+
+.page-header {
+    opacity: 0.6;
+    margin-left: -30px;
+    margin-top: 13px;
+}
+
+#PageContainer {
+    padding: 15px;
+    text-align: center
+}
+.form-inline .form-group a {
+    text-decoration: none;
+}
+.page-login-link {
+    width: 130px;
+    background: #fff;
+    height: 75px;
+    text-align: center;
+    border: 1px solid #cccbcb;
+    color: #000;
+    opacity: 0.5;
+}
+
+.form-inline .form-group:first-child {
+    margin-left: 10px
+}
+.form-inline .form-group:nth-child(2),
+.form-group:nth-child(3),
+.form-group:nth-child(4),
+.form-group:nth-child(5),
+.form-group:nth-child(6) {
+    margin-left: 15px
+}
+
+.page-login-link span {
+    margin-top: 8px;
+}
+.page-login-linkHeader{
+    font-weight: bold;
+    font-size: 0.9em
+}
+
+/* Calender and Noticboard Schedule  */
+#calenderNotic {
+    margin-left: 185px;
+    height: auto
+}
+#calenderNotic .form-inline {
+    height: auto
+}
+#noticeAndNewsTopFirst {
+    margin-top: -12px
+}
+#noticeAndNewsTop {
+    margin-top: -26px
+}
+
+.calenderNoticHeader {
+    background: #3498DB;
+    color: #fff;
+    width: 427px;
+    height: 40px;
+    text-align: center;
+    display: block;
+}
+
+
+.calenderShedule {
+    margin-left: -67%;
+    padding: 12px;
+    top: 0;
+    font-size: 1em
+}
+.InfoContent {
+    height: auto;
+    background: #fff;
+    width: 427px;
+    margin-left: -15px;
+    height: auto;
+    padding: 10px
+}
+ 
+.noticBoard {
+    margin-left: -74%;
+    padding: 12px;
+    top: 0;
+    font-size: 1em
+}
+
+#noticebaordContent {
+    margin-top: -150px;
+    height: auto
+}
+
+.noticebaordContent {
+    height: auto;
+    background: #fff;
+    width: 427px;
+    margin-left: -15px;
+    height: auto
+}
+.noticeContent {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 11px;
+    margin-left: -250px;
+    opacity: 0.7;
+    margin-top: -70px;
+    
+}
+
+.noticeContentNext {
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: -250px;
+    margin-top: -19px;
+    opacity: 0.6;
+    text-transform: lowercase
+}
+
+.noticeContentDate {
+    margin-left: 330px;
+    padding: 10px;
+    font-size: 1.5em;
+    opacity: 0.5;
+}
+.noticeContentYear {
+    font-size: 0.7em;
+    opacity: 0.6;
+}
+.noticeContentMonth {
+    margin-left: 330px;
+    padding: 10px;
+    font-size: 1.2em;
+    opacity: 0.5;
+    margin-top: -20px
+}
+/*  Index Login Footer  */
+.AdminFooter {
+    opacity: 0.7;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 30px
+}
+.AdminFooter .form-group span a {
+    text-decoration: none;
+    color: blue
+}
