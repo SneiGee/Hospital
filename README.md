@@ -17,7 +17,11 @@ Admin Home Page
 
 - In the projects directory open SQL folder and you import all tables in Xampps very simple and you save it then you 
 you are free to go!!
-Thanks any error or bug!!
+Thanks
+ found any error or bug let me know...!!
+
+HAPPY CODING
+
 
 Administrator Login Detail
 
